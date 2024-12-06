@@ -33,12 +33,14 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/poulpathak1",
-  github: "https://github.com/tankdynamixlabs",
+  github_personal: "https://github.com/poulpathak1",
+  github_business: "https://github.com/tankdynamixlabs",
   linkedin: "https://www.linkedin.com/in/poulpathak1/",
-  gmail: "hi@poulpathak.com",
-  gmail: "dev@tankdynamixlabs.com",
+  email_personal: "hi@poulpathak.com",
+  email_business: "dev@tankdynamixlabs.com",
   facebook: "https://www.facebook.com/pthkpdevil203",
+  instagram: "https://www.instagram.com/paul.pathak/",
+  twitter: "https://www.x.com/paulpathak/",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
