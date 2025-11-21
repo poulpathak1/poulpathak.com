@@ -52,7 +52,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -133,10 +133,11 @@ const educationInfo = {
       logo: require("./assets/images/uh_logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2017 - August 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Minor in Mathematics",
+        "Air Force ROTC ",
+        "Magna Cum Laude",
+        "Dean’s List"
       ]
     }
   ]
@@ -156,8 +157,8 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "NextJs",
-      progressPercentage: "60%"
+      Stack: "Problem Solving",
+      progressPercentage: "99%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -169,14 +170,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Development Engineer",
+      role: "Senior Software Engineer",
       company: "General Motors",
       companylogo: require("./assets/images/gm_logo.png"),
       date: "Jan 2022 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "4h → sub–minute: Designed Java 17/Spring Boot services for end–to–end validation and load, usingparallel execution, optimized data structures, targeted caching, and set–based SQL (MERGE/UPSERT)on Oracle 19c; improved data integrity and on–time executive reporting.",
+        "Reduced manual effort by ˜70% (3–4 FTE) via WebSockets/SSE progress, centralized ProcessAuditLog, and idempotent replays; eliminated chronic failure modes in daily/month–end processing.",
+        "$475K–$525K annual savings: Insourced platform components and retired legacy licensing/upgradecontracts; simplified lifecycle management and reduced vendor exposure.",
+        "Platform consolidation : Consolidated three legacy PowerBuilder apps and a separate global reporting stack into a single platform by restructuring relational schemas (period partitioning, surrogate keys, normalized lookups) and simplifying ETL; reduced redundant transformations by ˜80% and lowered TCO.",
+        "Processed 1B+ records/year across 80+ markets with secure ingest, archival, robust error handling, and audit trails; enabled near–real–time previews via Kafka–ready outbox/event schemas (Avro/Protobuf).",
+        "Reliability & ops: Migrated services to Kubernetes/OpenShift (Helm), implemented RBAC, OpenAPI/Swagger, readiness/health probes, and golden signals; improved release quality with CI/CD (GitHub Actions, Jenkins, SonarQube, Testcontainers); MTTR reduced through runbooks and post–mortems.",
+        "Predictive capabilities (PoC): Solutioned forecasting and –suggested transformation rules to reduce rule–authoring toil and accelerate onboarding of new data sources. Software Engineer",
+        "Enterprise dealer–financials platform on Azure: Azure AD SSO for a large dealer network, Azure Databricks gold datasets for downstream analytics, Azure PostgreSQL, and Azure Storage; instrumented pipelines with GitHub Actions/Azure DevOps. Delivered multi–million annual savings via insourcing and modernization.",
+        "Improved composite generation and daily financial processing by tuning SQL/batch jobs, publishing curated datasets, and integrating embedded analytics with role–based access.",
+        "VSNA legacy modernization (PowerBuilder): Contributed to daily processing flows and the staged consolidation of multiple PowerBuilder apps into a modern service boundary; refactored PL/SQL and job orchestration, introduced partitioning and lookup normalization, and added regression testing to stabilize month–end/quarter close."
       ]
     },
     {
@@ -184,15 +193,20 @@ const workExperiences = {
       company: "Infosys",
       companylogo: require("./assets/images/infosys_logo.png"),
       date: "Oct 2020 – Jan 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Client - Charles Schwab",
+      descBullets: [
+        "Full–stack delivery: Built Spring Boot microservices (REST/SOAP) and integrated server–side templating for document pipelines; partnered with UI engineers to integrate service contracts, auth flows, and validation, owning features end–to–end (DB → API → UI).",
+        "AWS integrations (production–adjacent): Prototyped and delivered cloud–ready features using AWS S3 (object storage for artifacts), API Gateway + Lambda (event–driven processing/PDF render & notifications), and EC2 (testbed for microservice deployment); implemented IAM least–privilege policies and CloudWatch logging/metrics for operability.",
+        "Optimized batch/ETL and database access patterns; introduced caching for high–traffic endpoints; improved reliability with idempotent operations and compensating actions."
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "JP Morgan Chase",
-      companylogo: require("./assets/images/chase_logo.png"),
-      date: "Jun 2019 – Aug 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+//    {
+//      role: "Software Engineer Intern",
+//      company: "JP Morgan Chase",
+//      companylogo: require("./assets/images/chase_logo.png"),
+//      date: "Jun 2019 – Aug 2019",
+//      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+//    }
   ]
 };
 
