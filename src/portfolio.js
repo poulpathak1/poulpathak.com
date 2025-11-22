@@ -174,7 +174,6 @@ const workExperiences = {
       company: "General Motors",
       companylogo: require("./assets/images/gm_logo.png"),
       date: "Jan 2022 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "4h → sub–minute: Designed Java 17/Spring Boot services for end–to–end validation and load, usingparallel execution, optimized data structures, targeted caching, and set–based SQL (MERGE/UPSERT)on Oracle 19c; improved data integrity and on–time executive reporting.",
         "Reduced manual effort by ˜70% (3–4 FTE) via WebSockets/SSE progress, centralized ProcessAuditLog, and idempotent replays; eliminated chronic failure modes in daily/month–end processing.",
