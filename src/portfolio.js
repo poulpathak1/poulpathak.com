@@ -132,7 +132,7 @@ const educationInfo = {
       schoolName: "University of Houston",
       logo: require("./assets/images/uh_logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "August 2017 - August 2020",
+//      duration: "August 2017 - August 2020",
       descBullets: [
         "Minor in Mathematics",
         "Air Force ROTC ",
